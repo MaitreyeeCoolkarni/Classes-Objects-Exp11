@@ -56,3 +56,14 @@ cin>>C1.B;
 
     return 0;
 }
+
+/**Enter the number 10
+Enter the number 2 20
+The addition is: 
+30 
+The subtraction is: 
+-10 
+The division is: 
+0 
+The multiplication is: 
+200 **/
