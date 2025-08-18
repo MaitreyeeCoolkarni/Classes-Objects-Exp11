@@ -53,3 +53,44 @@ Example: Both a Dog and a Cat class might inherit from an Animal class and imple
 Abstraction focuses on hiding complex implementation details and exposing only the necessary features of an object.
 Example: A user of a Car class might call drive() without needing to know how the engine works internally.
 
+## Algorithm
+
+## Program 1
+
+# Algorithm: Student Information Storage and Display
+
+## Step 1: Start the program
+
+## Step 2: Include necessary headers
+- `<iostream>` for input/output operations
+- `<string>` for using string data type
+
+## Step 3: Define a `Student` class
+- Data members:
+  - `string name`
+  - `int age`
+  - `char Section`
+  - `float result`
+
+## Step 4: Create objects of the `Student` class
+- `S1` initialized with: `"Maitreyee", 19, 'A', 90`
+- `S2` initialized with: `"Saee", 18, 'A', 98.2`
+- `S3` initialized with: `"Avani", 18, 'A', 98.2`
+
+## Step 5: Store objects in an array
+- `Student arr[3] = {S1, S2, S3}`
+
+## Step 6: Iterate through the array using a `for` loop
+- For `i = 0` to `2`:
+  - Display student name
+  - Display student age
+  - Display student section
+  - Display student result
+
+## Step 7: End the program
+
+##
+
+
+
+
