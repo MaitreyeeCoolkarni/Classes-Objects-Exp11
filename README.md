@@ -148,6 +148,35 @@ Example: A user of a Car class might call drive() without needing to know how th
 
 ## Step 7: End the program
 
+# Algorithm: Calculate Volume Using Member Functions (Inside and Outside Class)
+
+## Step 1: Start the program
+
+## Step 2: Include necessary header
+- `#include <iostream>` for input/output
+
+## Step 3: Define a class `MyClass`
+- Data members (with default values):
+  - `height = 10`
+  - `width = 10`
+  - `length = 5`
+- Member functions:
+  - `Volume()` → defined inside the class; prints `height * width * length`
+  - `myVolume()` → declared inside the class but defined outside; prints `height * width * length`
+
+## Step 4: Define the member function `myVolume()` outside the class
+- Use scope resolution operator `MyClass::myVolume()`
+- Print `height * width * length`
+
+## Step 5: In `main()` function
+- Create object `M1` of type `MyClass`
+- Call `M1.Volume()` → prints volume (500)
+- Print newline
+- Call `M1.myVolume()` → prints volume (500 again)
+
+## Step 6: End the program
+
+
 
 
 
