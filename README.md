@@ -9,7 +9,8 @@ A class is a blueprint or template for creating objects. It defines properties (
 Example: A Car class might define attributes like color and speed, and methods like drive() or stop().
 
 
-## Object: An object is an instance of a class. It’s a concrete entity created from the class, with its own specific values for the attributes defined by the class.
+## Object: 
+An object is an instance of a class. It’s a concrete entity created from the class, with its own specific values for the attributes defined by the class.
 
 Example: A specific car, like a red Toyota with a speed of 120 mph, is an object of the Car class.
 
