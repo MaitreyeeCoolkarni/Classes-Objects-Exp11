@@ -121,6 +121,33 @@ Example: A user of a Car class might call drive() without needing to know how th
 
 ## Step 7: End the program
 
+# Algorithm: Find Area of a Rectangle Using Class
+
+## Step 1: Start the program
+
+## Step 2: Include necessary header files
+- `#include <iostream>` for input/output
+- `#include <string>` (not required here, but included in code)
+
+## Step 3: Define a class `Rectangle`
+- Data members:
+  - `int length`
+  - `int width`
+- Member function:
+  - `area()` → calculates and prints `length * width`
+
+## Step 4: Create an object `R1` of class `Rectangle`
+
+## Step 5: Input rectangle dimensions
+- Prompt user for length and store in `R1.length`
+- Prompt user for width and store in `R1.width`
+
+## Step 6: Display output
+- Print message: `"The area of the rectangle R1 is"`
+- Call `R1.area()` to display area
+
+## Step 7: End the program
+
 
 
 
