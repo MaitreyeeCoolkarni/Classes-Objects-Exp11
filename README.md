@@ -207,6 +207,29 @@ Example: A user of a Car class might call drive() without needing to know how th
 
 ## Step 6: End the program
 
+# Algorithm: Demonstration of Member Functions (Inside and Outside Class)
+
+## Step 1: Start the program
+
+## Step 2: Include necessary header
+- `#include <iostream>` for input/output
+
+## Step 3: Define a class `MyClass`
+- Member functions:
+  - `method()` → defined inside the class; prints `"Hello"`
+  - `myFun()` → declared inside the class, defined outside using scope resolution `MyClass::myFun()`; prints `"Helloo"`
+
+## Step 4: Define the member function `myFun()` outside the class
+- Print `"Helloo"`
+
+## Step 5: In `main()` function
+1. Create an object `M1` of type `MyClass`
+2. Call `M1.method()` → prints `"Hello"`
+3. Call `M1.myFun()` → prints `"Helloo"`
+
+## Step 6: End the program
+
+
 
 
 
