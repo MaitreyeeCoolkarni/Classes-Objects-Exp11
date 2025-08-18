@@ -176,6 +176,38 @@ Example: A user of a Car class might call drive() without needing to know how th
 
 ## Step 6: End the program
 
+# Algorithm: Simple Calculator Using Class
+
+## Step 1: Start the program
+
+## Step 2: Include necessary headers
+- `#include <iostream>` for input/output
+- `#include <string>` (not actually used here, but included in the code)
+
+## Step 3: Define a class `Calc`
+- Data members:
+  - `int A`
+  - `int B`
+- Member functions:
+  - `add()` → prints `A + B`
+  - `subtract()` → prints `A - B`
+  - `divide()` → prints `A / B`
+  - `multiply()` → prints `A * B`
+
+## Step 4: In `main()`
+1. Create an object `C1` of type `Calc`.
+2. Prompt the user to enter the first number and store in `C1.A`.
+3. Prompt the user to enter the second number and store in `C1.B`.
+
+## Step 5: Perform operations using member functions
+1. Display `"The addition is:"` then call `C1.add()`.
+2. Display `"The subtraction is:"` then call `C1.subtract()`.
+3. Display `"The division is:"` then call `C1.divide()`.
+4. Display `"The multiplication is:"` then call `C1.multiply()`.
+
+## Step 6: End the program
+
+
 
 
 
