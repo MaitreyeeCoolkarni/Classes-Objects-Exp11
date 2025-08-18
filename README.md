@@ -229,6 +229,40 @@ Example: A user of a Car class might call drive() without needing to know how th
 
 ## Step 6: End the program
 
+# Algorithm: Store and Display Car Information Using Class and Array
+
+## Step 1: Start the program
+
+## Step 2: Include necessary headers
+- `#include <iostream>` for input/output
+- `#include <string>` for using string type
+
+## Step 3: Define a class `Car`
+- Data members:
+  - `string brand`
+  - `int cost`
+  - `int year`
+
+## Step 4: Create objects of the class
+- Create `C1`, `C2`, and `C3`
+
+## Step 5: Store objects in an array
+- `Car arr[3] = {C1, C2, C3}`
+
+## Step 6: Input car details using a loop
+- For `i = 0` to `2`:
+  - Ask user to enter `brand` and store in `arr[i].brand`
+  - Ask user to enter `year` and store in `arr[i].year`
+  - Ask user to enter `cost` and store in `arr[i].cost`
+
+## Step 7: Display stored details using another loop
+- For `i = 0` to `2`:
+  - Print `"The name is: "` followed by `arr[i].brand`
+  - Print `"The year is: "` followed by `arr[i].year`
+  - Print `"The cost is: "` followed by `arr[i].cost`
+
+## Step 8: End the program
+
 
 
 
