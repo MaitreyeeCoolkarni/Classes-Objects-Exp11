@@ -3,7 +3,8 @@
 The theory of classes and objects is a cornerstone of object-oriented programming (OOP), a paradigm used in many programming languages like Python, Java, C++, and others. Below, I’ll explain the key concepts in a clear and concise manner, covering the theory behind classes and objects, their purpose, and how they interact. If you want a more in-depth explanation or specific examples, let me know!
 What Are Classes and Objects?
 
-## Class: A class is a blueprint or template for creating objects. It defines properties (attributes) and behaviors (methods) that the objects created from the class will have. Think of a class as a mold for making similar objects.
+## Class:
+A class is a blueprint or template for creating objects. It defines properties (attributes) and behaviors (methods) that the objects created from the class will have. Think of a class as a mold for making similar objects.
 
 Example: A Car class might define attributes like color and speed, and methods like drive() or stop().
 
