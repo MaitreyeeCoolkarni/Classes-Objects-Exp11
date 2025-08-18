@@ -89,7 +89,38 @@ Example: A user of a Car class might call drive() without needing to know how th
 
 ## Step 7: End the program
 
-##
+# Algorithm: Display Student Information Using Class and Array
+
+## Step 1: Start the program
+
+## Step 2: Include necessary header files
+- `#include <iostream>` for input/output
+- `#include <string>` for string operations
+
+## Step 3: Define a class `Student`
+- Members of the class:
+  - `string name`
+  - `int age`
+  - `char Section`
+  - `float result`
+
+## Step 4: Create and initialize student objects
+- `S1` = {"Maitreyee", 19, 'A', 90}
+- `S2` = {"Saee", 18, 'A', 98.2}
+- `S3` = {"Avani", 18, 'A', 98.2}
+
+## Step 5: Store the student objects in an array
+- `Student arr[3] = {S1, S2, S3}`
+
+## Step 6: Use a `for` loop to display details of each student
+- Repeat for `i = 0` to `2`:
+  - Print `"The name is: "` followed by `arr[i].name`
+  - Print `"The age is: "` followed by `arr[i].age`
+  - Print `"The section is: "` followed by `arr[i].Section`
+  - Print `"The result is: "` followed by `arr[i].result`
+
+## Step 7: End the program
+
 
 
 
